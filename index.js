@@ -72,3 +72,4 @@ app.use("/api/user", candidateRoute);
 
 app.listen(PORT, () => console.log(`Server is running ${PORT}`));
 
+module.exports = app;
